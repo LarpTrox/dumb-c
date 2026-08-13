@@ -12,4 +12,31 @@ ok, now how to ~~install~~, you just drag and drop the .h into your folder with 
 * `donecustom()` is just `return`.
 * `func` is just `void`.
 * `say()` is just `printf()`.
-* 
+* `wait()` is just `Sleep()` but in seconds instead of miliseconds.
+* and finally, the syntax for input is `input("prompt", variable)`.
+## example code (doesnt use everything)
+```
+#include "dc.h"
+
+start() {
+    num age;
+    dec height;
+    str name = readyforinput();
+
+    input("Enter your name: ", name);
+    input("Enter your age: ", &age);
+    input("Enter your height (in meters): ", &height);
+
+    say("Your details are:");
+    say(name);
+    say(age);
+    say(height);
+    str mes = readyforinput();
+    input("ayo :", mes);
+    say(mes);
+
+    donestr(name);
+    donestr(mes);
+    done();
+}
+```
