@@ -16,7 +16,7 @@ ok, now how to ~~install~~, you just drag and drop the .h into your folder with 
 * and finally, the syntax for input is `input("prompt", variable)`.
 ## example code (doesnt use everything)
 ```
-#include "dc.h"
+#include "dc-win.h"
 
 start() {
     num age;
