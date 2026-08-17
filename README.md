@@ -1,7 +1,7 @@
 # The Dumb C Project
 Ok,**GUYS**, I just made C a lil dumber and easier, so, let me show you around:
 ## installation
-ok, now how to ~~install~~, you just drag and drop the .h into your folder with your .c files or into the include folder in your MinGW folder or /usr/include or whatever, it's just that simple.
+ok, now how to ~~install~~, you just drag and drop the .h into your folder with your .c files or into the include folder in your MinGW folder or /usr/local/include or whatever, it's just that simple.
 ## features
 * instead of `int` for numbers, you use `num`.
 * instead of `char`, you use `str`.
